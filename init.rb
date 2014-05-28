@@ -29,3 +29,6 @@ Autoproj.gitorious_server_configuration('GITHUB', 'github.com', :http_url => 'ht
 
 Autoproj.env_inherit 'CMAKE_PREFIX_PATH'
 
+if !Autoproj.has_config_key?('ROCK_FLAVOR')
+    Autoproj.change_option('ROCK_FLAVOR', 'next', true)
+end
