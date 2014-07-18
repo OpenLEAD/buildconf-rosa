@@ -2,7 +2,7 @@
 # in the package sets. Below is an example to change the branch name for a given
 # package
 #
-# overrides:
-#   - rtt
-#     branch: test
-#  
+overrides:
+    - base/cmake:
+        branch: master
+ 
