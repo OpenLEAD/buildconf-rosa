@@ -20,6 +20,7 @@ layout:
    - rock.core
    - openlead
    - drivers/orogen/sonar_tritech
+   - tools/rock_webapp
 
    #- rosa
    # Uncomment to enable the Rock/ROS bridge
