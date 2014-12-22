@@ -5,9 +5,7 @@
 
 package_sets:
    - github: rock-core/package_set
-     branch: stable_and_release
    - github: rock-core/rock-package_set
-     branch: stable_and_release
    # - gitorious: rock-tutorials/package_set
    - github: OpenLEAD/package_set
    # Uncomment to enable the Rock/ROS bridge
