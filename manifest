@@ -15,10 +15,17 @@ package_sets:
 # Layout. Note that the rock.base and orocos.toolchain sets are
 # imported by other rock sets.
 layout:
-   - rock.core
-   - openlead
+   - drivers/orogen/rosa_dfki_ucontroller
+   - drivers/orogen/ptu_kongsberg_oe10
+   - drivers/orogen/inclinometer
    - drivers/orogen/sonar_tritech
-   - tools/rock_webapp
+   - bundles/rosa
+   - tools/roby
+   - tools/orocos.rb
+
+exclude_packages:
+   - gui/.*
+   - qtruby
 
    #- rosa
    # Uncomment to enable the Rock/ROS bridge
@@ -35,7 +42,7 @@ layout:
 #
 # layout:
 #   - tools:
-#     - rock.toolchain
+#    - rock.toolchain
 #
 # Single packages can also be selected instead of whole package sets. The
 # package names are interpreted as a regular expression, so it is possible to
