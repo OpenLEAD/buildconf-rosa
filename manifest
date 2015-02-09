@@ -16,6 +16,8 @@ package_sets:
 # imported by other rock sets.
 layout:
    - tools/rock_webapp
+   - drivers/orogen/raw_io
+   - base/orogen/types
 
 exclude_packages:
    - gui/.*
