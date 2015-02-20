@@ -19,6 +19,8 @@ layout:
    - openlead
    - drivers/orogen/sonar_tritech
    - tools/rock_webapp
+exclude_packages:
+   - tools/class_loader
 
    #- rosa
    # Uncomment to enable the Rock/ROS bridge
